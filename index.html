@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Roller</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="user-interaction">
+           <span>Number of dice rolls: </span> 
+           <input type="text" id="dice-roll">
+           <button id="roll-btn">Roll!</button>
+        </div>
+        <div class="dice-roll-results">
+            <span>Total: </span>
+            <span id="dice-roll-total"></span>
+        </div>
+        <div class="all-dice-rolled">
+            <button id="display-all-rolls">Show All Rolls</button>
+            <ol id="all-rolls">
+            </ol>
+            <!-- displays an ordered list of all dice faces rolled -->
+        </div>
+    </div>
+    
+
+    <script src="./assets/main.js"></script>
+</body>
+</html>
